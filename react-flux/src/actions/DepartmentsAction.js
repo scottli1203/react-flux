@@ -17,6 +17,9 @@ let DepartmentsAction = {
             });
 
 
+    },
+    getDepById: function(){
+        console.log('getDepById');
     }
 };
 

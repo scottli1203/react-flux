@@ -18,6 +18,9 @@ let UserAction = {
             });
 
 
+    },
+    getUserById:function(){
+        console.log('getUserById');
     }
 };
 
