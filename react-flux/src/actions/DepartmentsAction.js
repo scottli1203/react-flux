@@ -17,18 +17,6 @@ let DepartmentsAction = {
             });
 
 
-    },
-    getDepsById:function(){
-        fetch(host + "/departments/1", {
-            method: "GET"
-        }).then(response => response.json())
-            .then(json => {
-                //Dispatch action.
-                dispatch.dispatch({
-                    actionType:'GET_ALL_DEPS',
-                    data:json.departments
-                });
-            });
     }
 };
 
