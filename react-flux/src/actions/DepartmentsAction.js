@@ -17,6 +17,9 @@ let DepartmentsAction = {
             });
 
 
+    },
+    deleteMethod:function(){
+      console.log('Delete Mthod');
     }
 };
 
