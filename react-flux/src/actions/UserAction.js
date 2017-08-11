@@ -19,6 +19,9 @@ let UserAction = {
 
 
     },
+    updateUserById:function(){
+        console.log('updateUserById');
+    },
     getUserById:function(){
         console.log('getUserById');
     }
