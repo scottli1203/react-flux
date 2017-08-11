@@ -17,12 +17,6 @@ let DepartmentsAction = {
             });
 
 
-    },
-    updateDepById: function(){
-        console.log('updateDepById');
-    },
-    getDepById: function(){
-        console.log('getDepById');
     }
 };
 
