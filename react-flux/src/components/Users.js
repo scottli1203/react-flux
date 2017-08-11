@@ -6,8 +6,6 @@ let UserInfo = React.createClass({
     updateStateFromStore:function(){
         let data = userStore.getData();
         this.setState({data: data});
-
-        console.log('updateStateFromStore1');
     },
 
     getInitialState: function(){
