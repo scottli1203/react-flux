@@ -18,6 +18,9 @@ let DepartmentsAction = {
 
 
     },
+    add:function(){
+        console.log('Add method');
+    },
     deleteMethod:function(){
       console.log('Delete Mthod');
     }
