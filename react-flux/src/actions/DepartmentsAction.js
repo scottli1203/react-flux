@@ -18,7 +18,7 @@ let DepartmentsAction = {
 
 
     },
-    addDeps:function(){
+    addDeps:function() {
         console.log('addDeps');
     },
     deleteDep: function(){
