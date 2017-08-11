@@ -17,6 +17,9 @@ let DepartmentsAction = {
             });
 
 
+    },
+    deleteDep: function(){
+        console.log('delete dep');
     }
 };
 
